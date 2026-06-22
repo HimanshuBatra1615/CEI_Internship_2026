@@ -90,7 +90,7 @@ total_amount = final_price * quantity
 - Saved cleaned dataset as:
 
 ```text
-cleaned_dataset.csv
+cleaned_shopping_dataset.csv
 ```
 
 ---
@@ -119,8 +119,8 @@ Through this assignment, I gained hands-on experience in:
 
 ## 📌 Assignment Deliverables
 
-- Jupyter Notebook (`shopping_analysis.ipynb`)
-- Cleaned Dataset (`cleaned_dataset.csv`)
+- Jupyter Notebook (`analysis_shopping.ipynb`)
+- Cleaned Dataset (`cleaned_shopping_dataset.csv`)
 - Documentation (`README.md`)
 
 ---
