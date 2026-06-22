@@ -23,12 +23,12 @@ CEI-2026/
 ├── Week-1/
 │   ├── analysis_shopping.ipynb
 │   ├── cleaned_shopping_dataset.csv
-│   └── README.md
+│   └── requirements.txt
 │
 ├── Week-2/
 ├── Week-3/
 ├── Week-4/
-├── Week-5/
+├── README.md
 └── ...
 ```
 
