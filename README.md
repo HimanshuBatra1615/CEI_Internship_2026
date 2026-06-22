@@ -21,8 +21,8 @@ The objective of this internship is to strengthen practical skills in Python, Da
 CEI-2026/
 │
 ├── Week-1/
-│   ├── shopping_analysis.ipynb
-│   ├── cleaned_dataset.csv
+│   ├── analysis_shopping.ipynb
+│   ├── cleaned_shopping_dataset.csv
 │   └── README.md
 │
 ├── Week-2/
