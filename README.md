@@ -100,7 +100,6 @@ cleaned_dataset.csv
 - Python
 - Pandas
 - NumPy
-- Jupyter Notebook
 
 ---
 
