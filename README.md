@@ -1,17 +1,18 @@
 # 🚀 Celebal Excellence Internship (CEI) 2026
 
-Welcome to my CEI 2026 repository. This repository contains weekly assignments, hands-on exercises, and projects completed as part of the **Celebal Excellence Internship (CEI) 2026** at Celebal Technologies.
+Welcome to my repository for the **Celebal Excellence Internship (CEI) 2026**.
 
-The objective of this internship is to strengthen practical skills in Python, Data Science, Machine Learning, Data Engineering, and AI through industry-oriented assignments and real-world datasets.
+This repository serves as a centralized collection of all assignments, hands-on exercises, projects, and learning outcomes completed throughout the internship. The goal is to document my progress and showcase practical skills developed in Python, SQL, Data Analysis, Data Engineering, and Artificial Intelligence.
 
 ---
 
-## 👨‍💻 Intern Information
+## 👨‍💻 About Me
 
-**Name:** Himanshu Batra  
-**Program:** Celebal Excellence Internship (CEI) 2026  
+**Himanshu Batra**  
+B.Tech Computer Science Engineering  
+DIT University, Dehradun
+
 **Domain:** Data Engineering
-**Institute:** DIT University, Dehradun
 
 ---
 
@@ -21,125 +22,117 @@ The objective of this internship is to strengthen practical skills in Python, Da
 CEI-2026/
 │
 ├── Week-1/
-│   ├── analysis_shopping.ipynb
-│   ├── cleaned_shopping_dataset.csv
-│   └── requirements.txt
-│
 ├── Week-2/
 ├── Week-3/
 ├── Week-4/
-├── README.md
-└── ...
+├── Week-5/
+└── README.md
 ```
 
----
-
-# 📊 Week 1: Basic Data Exploration and Cleaning using Pandas
-
-## 🎯 Objective
-
-Learn the fundamentals of Python and Pandas by performing data exploration, preprocessing, and cleaning operations on a real-world shopping dataset.
+Each folder contains the assignment, notebook, datasets (if applicable), and supporting files for that week.
 
 ---
 
-## 📁 Dataset
+## 📅 Weekly Progress
 
-**Shopping Dataset**
-
-Source:  
-https://www.kaggle.com/datasets/anvitkumar/shopping-dataset
-
-Dataset Used:
-
-```text
-Combined_dataset.csv
-```
+| Week | Topic | Status |
+|------|-------|--------|
+| Week 1 | Basic Data Exploration and Cleaning using Pandas | ✅ Completed |
+| Week 2 | SQL-Based Sales Data Analysis | ✅ Completed |
+| Week 3 | To be Updated | ⏳ |
+| Week 4 | To be Updated | ⏳ |
+| Week 5 | To be Updated | ⏳ |
 
 ---
 
-## 🔍 Tasks Performed
+## 📊 Week 1 Highlights
 
-### ✅ Data Loading
-- Imported dataset using Pandas
-- Loaded CSV file into a DataFrame
+### Topic
 
-### ✅ Data Exploration
-- Examined dataset dimensions
-- Viewed sample records using `head()` and `tail()`
-- Analyzed column names and data types
+**Basic Data Exploration and Cleaning using Pandas**
 
-### ✅ Data Cleaning
-- Identified missing values
-- Filled missing numerical values
-- Filled missing categorical values
+### Key Tasks
+
+- Loaded CSV dataset into a Pandas DataFrame
+- Explored dataset structure and statistics
+- Identified and handled missing values
+- Performed filtering and column selection
 - Removed duplicate records
+- Created derived features
+- Exported cleaned dataset
 
-### ✅ Data Manipulation
-- Selected relevant columns
-- Filtered records based on conditions
-- Converted price fields to numeric format
-
-### ✅ Feature Engineering
-Created a new derived column:
-
-```python
-total_amount = final_price * quantity
-```
-
-### ✅ Data Export
-- Saved cleaned dataset as:
-
-```text
-cleaned_shopping_dataset.csv
-```
-
----
-
-## 🛠️ Technologies Used
+### Technologies Used
 
 - Python
 - Pandas
-- NumPy
+- Jupyter Notebook
 
----
-
-## 📈 Learning Outcomes
-
-Through this assignment, I gained hands-on experience in:
-
-- Working with real-world datasets
-- Data exploration and profiling
-- Data cleaning and preprocessing
-- Handling missing values
-- Data filtering and transformation
-- Feature engineering using Pandas
-- Exporting processed datasets
-
----
-
-## 📌 Assignment Deliverables
+### Deliverables
 
 - Jupyter Notebook (`analysis_shopping.ipynb`)
 - Cleaned Dataset (`cleaned_shopping_dataset.csv`)
-- Documentation (`README.md`)
 
 ---
 
-## 🌟 About CEI 2026
+## 🗄️ Week 2 Highlights
 
-The Celebal Excellence Internship (CEI) is a structured internship program designed to provide practical exposure to modern Data & AI technologies through guided learning, mentorship, and industry-focused assignments.
+### Topic
+
+**SQL-Based Sales Data Analysis**
+
+### Key Tasks
+
+- Loaded the Superstore sales dataset into a SQL database
+- Explored table schema and sample records
+- Applied filtering using `WHERE` clauses
+- Performed aggregations using `GROUP BY`
+- Calculated sales, quantities, and averages
+- Identified top-performing products and categories
+- Analyzed monthly sales trends
+- Identified top customers based on sales
+- Detected duplicate records
+- Validated data quality using row counts and null-value checks
+- Generated business insights through SQL queries
+
+### Technologies Used
+
+- SQL
+- SQLite
+- Google Colab
+- Pandas
+
+### Deliverables
+
+- Jupyter Notebook (`superstore_analysis.ipynb`)
+- SQL Script (`sql_analysis.sql`)
 
 ---
 
-### 📅 Progress Tracker
+## 🛠️ Skills Developed
 
-| Week | Assignment | Status |
-|--------|------------|---------|
-| Week 1 | Basic Data Exploration and Cleaning using Pandas | ✅ Completed |
-| Week 2 | To be Updated | ⏳ |
-| Week 3 | To be Updated | ⏳ |
-| Week 4 | To be Updated | ⏳ |
+Throughout this internship, I aim to strengthen my skills in:
+
+- Python Programming
+- SQL & Database Management
+- Data Analysis
+- Data Cleaning & Preprocessing
+- Business Analytics
+- Data Engineering
+- Data Visualization
+- Artificial Intelligence
 
 ---
 
-⭐ This repository will be updated regularly throughout the CEI 2026 journey with new assignments, projects, and learning outcomes.
+## 🎯 Internship Goal
+
+To gain practical industry experience by solving real-world business problems, building data-driven solutions, and applying modern Data Engineering, SQL, and AI techniques through structured weekly assignments and projects.
+
+---
+
+## 📌 Note
+
+This repository will be updated regularly as new assignments and projects are completed during the CEI 2026 program.
+
+---
+
+⭐ Thank you for visiting this repository. Feedback and suggestions are always welcome.
