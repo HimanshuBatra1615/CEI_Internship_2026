@@ -39,7 +39,7 @@ Each folder contains the assignment, notebook, datasets (if applicable), and sup
 |------|-------|--------|
 | Week 1 | Basic Data Exploration and Cleaning using Pandas | ✅ Completed |
 | Week 2 | SQL-Based Sales Data Analysis | ✅ Completed |
-| Week 3 | To be Updated | ⏳ |
+| Week 3 | Advanced SQL using Subqueries, CTEs & Window Functions | ✅ Completed |
 | Week 4 | To be Updated | ⏳ |
 | Week 5 | To be Updated | ⏳ |
 
@@ -108,6 +108,40 @@ Each folder contains the assignment, notebook, datasets (if applicable), and sup
 
 ---
 
+## 🗄️ Week 3 Highlights
+
+### Topic
+
+**Advanced SQL using Subqueries, CTEs & Window Functions**
+
+### Key Tasks
+
+- Imported the Superstore dataset into a SQL database
+- Created normalized tables (`customers`, `orders`, and `products`)
+- Performed advanced filtering using Subqueries
+- Used Common Table Expressions (CTEs) for reusable aggregations
+- Applied Window Functions (`RANK()` and `ROW_NUMBER()`)
+- Ranked customers based on total sales
+- Identified top and bottom customers
+- Analyzed customers with above-average sales
+- Determined customers who placed only one order
+- Calculated the highest order value for each customer
+- Combined `JOIN`, `CTE`, and `Window Functions` to generate customer sales insights
+
+### Technologies Used
+
+- SQL
+- SQLite
+- Google Colab
+- Pandas
+
+### Deliverables
+
+- Jupyter Notebook (`week3_advanced_sql.ipynb`)
+- SQL Script (`superstore_advanced_queries.sql`)
+
+---
+
 ## 🛠️ Skills Developed
 
 Throughout this internship, I aim to strengthen my skills in:
@@ -118,6 +152,8 @@ Throughout this internship, I aim to strengthen my skills in:
 - Data Cleaning & Preprocessing
 - Business Analytics
 - Data Engineering
+- Database Design
+- Advanced SQL (Subqueries, CTEs & Window Functions)
 - Data Visualization
 - Artificial Intelligence
 
