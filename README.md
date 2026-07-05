@@ -1,24 +1,24 @@
 # 🚀 Celebal Excellence Internship (CEI) 2026
 
-Welcome to my repository for the **Celebal Excellence Internship (CEI) 2026**.
+Welcome to my **Celebal Excellence Internship (CEI) 2026** repository.
 
-This repository serves as a centralized collection of all assignments, hands-on exercises, projects, and learning outcomes completed throughout the internship. The goal is to document my progress and showcase practical skills developed in Python, SQL, Data Analysis, Data Engineering, and Artificial Intelligence.
-
----
-
-## 👨‍💻 About Me
-
-**Himanshu Batra**  
-B.Tech Computer Science Engineering  
-DIT University, Dehradun
-
-**Domain:** Data Engineering
+This repository documents my learning journey throughout the internship at **Celebal Technologies**, where I complete weekly assignments focused on Python, SQL, Data Engineering, and Data Analytics. Each week's work demonstrates practical implementation of concepts using real-world datasets and industry-oriented problem statements.
 
 ---
 
-## 📂 Repository Structure
+# 👨‍💻 Profile
 
-```text
+| **Name** | Himanshu Batra |
+|-----------|----------------|
+| **Program** | Celebal Excellence Internship (CEI) 2026 |
+| **Domain** | Data Engineering |
+| **University** | DIT University, Dehradun |
+
+---
+
+# 📁 Repository Overview
+
+```
 CEI-2026/
 │
 ├── Week-1/
@@ -29,146 +29,145 @@ CEI-2026/
 └── README.md
 ```
 
-Each folder contains the assignment, notebook, datasets (if applicable), and supporting files for that week.
+Each weekly folder contains the corresponding notebook, SQL scripts (where applicable), datasets, and other supporting resources.
 
 ---
 
-## 📅 Weekly Progress
+# 📌 Internship Progress
 
-| Week | Topic | Status |
-|------|-------|--------|
-| Week 1 | Basic Data Exploration and Cleaning using Pandas | ✅ Completed |
-| Week 2 | SQL-Based Sales Data Analysis | ✅ Completed |
-| Week 3 | Advanced SQL using Subqueries, CTEs & Window Functions | ✅ Completed |
-| Week 4 | To be Updated | ⏳ |
-| Week 5 | To be Updated | ⏳ |
+| Week | Assignment | Technologies | Status |
+|------|------------|--------------|--------|
+| Week 1 | Data Exploration & Cleaning using Pandas | Python, Pandas | ✅ Completed |
+| Week 2 | SQL-Based Sales Data Analysis | SQL, SQLite | ✅ Completed |
+| Week 3 | Advanced SQL (Subqueries, CTEs & Window Functions) | SQL, SQLite | ✅ Completed |
+| Week 4 | Coming Soon | — | ⏳ |
+| Week 5 | Coming Soon | — | ⏳ |
 
 ---
 
-## 📊 Week 1 Highlights
+# 📖 Weekly Summary
 
-### Topic
+## 📊 Week 1 — Data Exploration & Cleaning with Pandas
 
-**Basic Data Exploration and Cleaning using Pandas**
+### Objective
+Perform data cleaning and exploratory analysis on a shopping dataset using Python and Pandas.
 
-### Key Tasks
-
-- Loaded CSV dataset into a Pandas DataFrame
-- Explored dataset structure and statistics
-- Identified and handled missing values
-- Performed filtering and column selection
+### Highlights
+- Imported and explored CSV datasets
+- Examined data types and dataset structure
+- Handled missing values
 - Removed duplicate records
+- Filtered and transformed data
 - Created derived features
-- Exported cleaned dataset
+- Exported the cleaned dataset
 
-### Technologies Used
+### Deliverables
+
+- `analysis_shopping.ipynb`
+- `cleaned_shopping_dataset.csv`
+
+**Tools & Libraries**
 
 - Python
 - Pandas
+- NumPy
 - Jupyter Notebook
 
-### Deliverables
-
-- Jupyter Notebook (`analysis_shopping.ipynb`)
-- Cleaned Dataset (`cleaned_shopping_dataset.csv`)
-
 ---
 
-## 🗄️ Week 2 Highlights
+## 🗄️ Week 2 — SQL Sales Data Analysis
 
-### Topic
+### Objective
+Analyze retail sales data by applying SQL queries to extract meaningful business insights.
 
-**SQL-Based Sales Data Analysis**
+### Highlights
 
-### Key Tasks
-
-- Loaded the Superstore sales dataset into a SQL database
-- Explored table schema and sample records
-- Applied filtering using `WHERE` clauses
-- Performed aggregations using `GROUP BY`
-- Calculated sales, quantities, and averages
-- Identified top-performing products and categories
+- Imported Superstore dataset into SQLite
+- Explored table structure and sample records
+- Used filtering with `WHERE`
+- Performed aggregation using `GROUP BY`
+- Generated category-wise and region-wise sales reports
+- Identified top customers and products
 - Analyzed monthly sales trends
-- Identified top customers based on sales
-- Detected duplicate records
-- Validated data quality using row counts and null-value checks
-- Generated business insights through SQL queries
+- Performed duplicate detection and data validation
 
-### Technologies Used
+### Deliverables
+
+- `superstore_analysis.ipynb`
+- `sql_analysis.sql`
+
+**Tools & Technologies**
 
 - SQL
 - SQLite
 - Google Colab
 - Pandas
 
-### Deliverables
-
-- Jupyter Notebook (`superstore_analysis.ipynb`)
-- SQL Script (`sql_analysis.sql`)
-
 ---
 
-## 🗄️ Week 3 Highlights
+## ⚡ Week 3 — Advanced SQL Analytics
 
-### Topic
+### Objective
+Leverage advanced SQL concepts to perform customer-centric sales analysis and solve business problems.
 
-**Advanced SQL using Subqueries, CTEs & Window Functions**
+### Highlights
 
-### Key Tasks
+- Built separate `customers`, `orders`, and `products` tables from raw sales data
+- Solved analytical problems using **Subqueries**
+- Simplified complex logic using **Common Table Expressions (CTEs)**
+- Applied **Window Functions** (`RANK()` and `ROW_NUMBER()`)
+- Ranked customers based on revenue
+- Identified top-performing and low-performing customers
+- Determined one-time customers
+- Calculated highest order values
+- Combined JOINs, CTEs, and Window Functions to generate comprehensive customer sales insights
 
-- Imported the Superstore dataset into a SQL database
-- Created normalized tables (`customers`, `orders`, and `products`)
-- Performed advanced filtering using Subqueries
-- Used Common Table Expressions (CTEs) for reusable aggregations
-- Applied Window Functions (`RANK()` and `ROW_NUMBER()`)
-- Ranked customers based on total sales
-- Identified top and bottom customers
-- Analyzed customers with above-average sales
-- Determined customers who placed only one order
-- Calculated the highest order value for each customer
-- Combined `JOIN`, `CTE`, and `Window Functions` to generate customer sales insights
+### Deliverables
 
-### Technologies Used
+- `week3_advanced_sql.ipynb`
+- `superstore_advanced_queries.sql`
+
+**Tools & Technologies**
 
 - SQL
 - SQLite
 - Google Colab
 - Pandas
 
-### Deliverables
-
-- Jupyter Notebook (`week3_advanced_sql.ipynb`)
-- SQL Script (`superstore_advanced_queries.sql`)
-
 ---
 
-## 🛠️ Skills Developed
+# 💡 Technical Skills Strengthened
 
-Throughout this internship, I aim to strengthen my skills in:
+Throughout the internship, I have gained hands-on experience in:
 
 - Python Programming
-- SQL & Database Management
-- Data Analysis
-- Data Cleaning & Preprocessing
-- Business Analytics
-- Data Engineering
-- Database Design
-- Advanced SQL (Subqueries, CTEs & Window Functions)
-- Data Visualization
-- Artificial Intelligence
+- SQL Query Development
+- Data Cleaning & Transformation
+- Relational Database Concepts
+- Data Engineering Fundamentals
+- Business Data Analysis
+- Window Functions & CTEs
+- Feature Engineering
+- Exploratory Data Analysis
 
 ---
 
-## 🎯 Internship Goal
+# 🎯 Internship Vision
 
-To gain practical industry experience by solving real-world business problems, building data-driven solutions, and applying modern Data Engineering, SQL, and AI techniques through structured weekly assignments and projects.
-
----
-
-## 📌 Note
-
-This repository will be updated regularly as new assignments and projects are completed during the CEI 2026 program.
+The primary objective of this internship is to bridge the gap between academic concepts and real-world applications by solving practical business problems using modern data technologies. Each assignment contributes towards building a strong foundation in Data Engineering and Analytics.
 
 ---
 
-⭐ Thank you for visiting this repository. Feedback and suggestions are always welcome.
+# 📢 Future Updates
+
+This repository will continue to evolve as new assignments, projects, and learning milestones are completed during the Celebal Excellence Internship (CEI) 2026.
+
+---
+
+<div align="center">
+
+### ⭐ Thanks for visiting my repository!
+
+*If you find this repository useful, feel free to explore the weekly assignments and follow my learning journey.*
+
+</div>
