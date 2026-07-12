@@ -2,7 +2,7 @@
 
 Welcome to my **Celebal Excellence Internship (CEI) 2026** repository.
 
-This repository documents my learning journey throughout the internship at **Celebal Technologies**, where I complete weekly assignments focused on Python, SQL, Data Engineering, and Data Analytics. Each week's work demonstrates practical implementation of concepts using real-world datasets and industry-oriented problem statements.
+This repository documents my learning journey throughout the internship at **Celebal Technologies**, where I complete weekly assignments focused on Python, SQL, Azure Cloud, Data Engineering, and Data Analytics. Each week's work demonstrates practical implementation of concepts using real-world datasets and industry-oriented problem statements.
 
 ---
 
@@ -29,7 +29,7 @@ CEI-2026/
 └── README.md
 ```
 
-Each weekly folder contains the corresponding notebook, SQL scripts (where applicable), datasets, and other supporting resources.
+Each weekly folder contains notebooks, SQL scripts, Azure resources, reports, datasets, screenshots, and supporting documentation for the corresponding assignment.
 
 ---
 
@@ -40,26 +40,30 @@ Each weekly folder contains the corresponding notebook, SQL scripts (where appli
 | Week 1 | Data Exploration & Cleaning using Pandas | Python, Pandas | ✅ Completed |
 | Week 2 | SQL-Based Sales Data Analysis | SQL, SQLite | ✅ Completed |
 | Week 3 | Advanced SQL (Subqueries, CTEs & Window Functions) | SQL, SQLite | ✅ Completed |
-| Week 4 | Coming Soon | — | ⏳ |
+| Week 4 | Azure Cloud Fundamentals & Azure Data Factory Pipeline | Azure, Azure Blob Storage, Azure Data Factory, IAM | ✅ Completed |
 | Week 5 | Coming Soon | — | ⏳ |
 
 ---
 
 # 📖 Weekly Summary
 
+---
+
 ## 📊 Week 1 — Data Exploration & Cleaning with Pandas
 
 ### Objective
+
 Perform data cleaning and exploratory analysis on a shopping dataset using Python and Pandas.
 
 ### Highlights
+
 - Imported and explored CSV datasets
-- Examined data types and dataset structure
+- Examined dataset structure and data types
 - Handled missing values
 - Removed duplicate records
-- Filtered and transformed data
+- Applied filtering and transformations
 - Created derived features
-- Exported the cleaned dataset
+- Exported cleaned dataset
 
 ### Deliverables
 
@@ -78,18 +82,18 @@ Perform data cleaning and exploratory analysis on a shopping dataset using Pytho
 ## 🗄️ Week 2 — SQL Sales Data Analysis
 
 ### Objective
-Analyze retail sales data by applying SQL queries to extract meaningful business insights.
+
+Analyze retail sales data by applying SQL queries to generate business insights.
 
 ### Highlights
 
 - Imported Superstore dataset into SQLite
-- Explored table structure and sample records
-- Used filtering with `WHERE`
-- Performed aggregation using `GROUP BY`
-- Generated category-wise and region-wise sales reports
-- Identified top customers and products
-- Analyzed monthly sales trends
-- Performed duplicate detection and data validation
+- Performed filtering using `WHERE`
+- Applied aggregation using `GROUP BY`
+- Generated sales reports
+- Identified top-performing customers and products
+- Analyzed regional and monthly sales
+- Performed duplicate detection and validation
 
 ### Deliverables
 
@@ -108,19 +112,19 @@ Analyze retail sales data by applying SQL queries to extract meaningful business
 ## ⚡ Week 3 — Advanced SQL Analytics
 
 ### Objective
-Leverage advanced SQL concepts to perform customer-centric sales analysis and solve business problems.
+
+Apply advanced SQL concepts to solve customer-centric business problems.
 
 ### Highlights
 
-- Built separate `customers`, `orders`, and `products` tables from raw sales data
-- Solved analytical problems using **Subqueries**
-- Simplified complex logic using **Common Table Expressions (CTEs)**
-- Applied **Window Functions** (`RANK()` and `ROW_NUMBER()`)
-- Ranked customers based on revenue
-- Identified top-performing and low-performing customers
-- Determined one-time customers
+- Created normalized customer, order, and product tables
+- Used Subqueries for analytical reporting
+- Implemented Common Table Expressions (CTEs)
+- Applied Window Functions (`RANK()`, `ROW_NUMBER()`)
+- Ranked customers by revenue
+- Identified top and low-performing customers
 - Calculated highest order values
-- Combined JOINs, CTEs, and Window Functions to generate comprehensive customer sales insights
+- Combined JOINs, CTEs, and analytical functions
 
 ### Deliverables
 
@@ -136,6 +140,56 @@ Leverage advanced SQL concepts to perform customer-centric sales analysis and so
 
 ---
 
+# ☁️ Week 4 — Azure Cloud Fundamentals & Azure Data Factory Pipeline
+
+### Objective
+
+Learn Azure cloud fundamentals by designing and implementing an end-to-end Azure Data Factory pipeline to transfer data between Azure Blob Storage containers while validating metadata.
+
+### Highlights
+
+- Created an Azure Resource Group
+- Provisioned an Azure Storage Account
+- Created Blob Storage containers for source and destination
+- Uploaded CSV dataset into Azure Blob Storage
+- Configured Azure Blob Storage Linked Service
+- Created Source and Destination datasets
+- Built an Azure Data Factory pipeline
+- Implemented **Get Metadata** activity to validate source file properties
+- Configured **Copy Data** activity for data movement
+- Assigned IAM roles (Reader & Contributor) to the Azure Data Factory Managed Identity
+- Validated and published the pipeline
+- Successfully executed the pipeline
+- Verified copied data in destination Blob container
+- Confirmed successful metadata validation
+
+### Deliverables
+
+- Azure Resource Group
+- Azure Storage Account
+- Blob Storage Containers
+- Azure Data Factory
+- Linked Service Configuration
+- Source & Destination Datasets
+- Get Metadata Activity
+- Copy Data Pipeline
+- IAM Role Assignment
+- Pipeline Validation & Publishing
+- Pipeline Execution Report
+- Mini Project Documentation
+
+### Technologies Used
+
+- Microsoft Azure
+- Azure Resource Manager
+- Azure Blob Storage
+- Azure Data Factory (ADF)
+- Azure IAM
+- Copy Data Activity
+- Get Metadata Activity
+
+---
+
 # 💡 Technical Skills Strengthened
 
 Throughout the internship, I have gained hands-on experience in:
@@ -145,22 +199,29 @@ Throughout the internship, I have gained hands-on experience in:
 - Data Cleaning & Transformation
 - Relational Database Concepts
 - Data Engineering Fundamentals
-- Business Data Analysis
-- Window Functions & CTEs
-- Feature Engineering
 - Exploratory Data Analysis
+- Azure Cloud Fundamentals
+- Azure Resource Management
+- Azure Blob Storage
+- Azure Data Factory (ADF)
+- ETL Pipeline Development
+- Metadata Validation
+- IAM Role Management
+- Cloud Data Integration
 
 ---
 
 # 🎯 Internship Vision
 
-The primary objective of this internship is to bridge the gap between academic concepts and real-world applications by solving practical business problems using modern data technologies. Each assignment contributes towards building a strong foundation in Data Engineering and Analytics.
+The primary objective of this internship is to bridge the gap between academic concepts and real-world data engineering practices by solving practical business problems using modern cloud technologies, SQL, Python, and Azure Data Services.
+
+Each assignment contributes towards building strong practical skills in Data Engineering, Cloud Computing, and Analytics.
 
 ---
 
 # 📢 Future Updates
 
-This repository will continue to evolve as new assignments, projects, and learning milestones are completed during the Celebal Excellence Internship (CEI) 2026.
+This repository will continue to evolve as new assignments, cloud projects, and learning milestones are completed during the Celebal Excellence Internship (CEI) 2026.
 
 ---
 
