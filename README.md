@@ -41,7 +41,7 @@ Each weekly folder contains notebooks, SQL scripts, Azure resources, reports, da
 | Week 2 | SQL-Based Sales Data Analysis | SQL, SQLite | ✅ Completed |
 | Week 3 | Advanced SQL (Subqueries, CTEs & Window Functions) | SQL, SQLite | ✅ Completed |
 | Week 4 | Azure Cloud Fundamentals & Azure Data Factory Pipeline | Azure, Azure Blob Storage, Azure Data Factory, IAM | ✅ Completed |
-| Week 5 | Coming Soon | — | ⏳ |
+| Week 5 | Data Cleaning, Transformation & Aggregation using PySpark | PySpark, Apache Spark, Google Colab | ✅ Completed |
 
 ---
 
@@ -190,6 +190,41 @@ Learn Azure cloud fundamentals by designing and implementing an end-to-end Azure
 
 ---
 
+# 🔥 Week 5 — Data Cleaning, Transformation & Aggregation using PySpark
+
+### Objective
+
+Perform large-scale data cleaning, transformation, and aggregation using PySpark, covering both foundational Spark theory and hands-on DataFrame engineering on a single, realistic Superstore-style dataset.
+
+### Highlights
+
+- Explained the limitations of traditional MapReduce compared to Spark's in-memory computing model
+- Built one consistent, realistic PySpark DataFrame reused across the entire assignment instead of separate toy datasets per question
+- Removed duplicate rows using `dropDuplicates()` on composite keys (`user_id`, `transaction_date`)
+- Filtered and aggregated data using `filter()`, `groupBy()`, and `agg()`
+- Handled missing values using `.na.drop()` and `.na.fill()`
+- Explained DataFrame immutability and its effect on data cleaning workflows
+- Cast a string column to `TimestampType` and renamed it using `withColumnRenamed()`
+- Explained the Shuffle process and the distinction between wide and narrow transformations
+- Computed multiple aggregate statistics (min, max, average) in a single `.agg()` call
+- Discussed the risks of using `inferSchema=True` on messy or inconsistent source data
+- Built a complete end-to-end pipeline: deduplication → null handling → grouped revenue aggregation
+
+### Deliverables
+
+- `Week5_CEI_DataEngineering.ipynb`
+- `week5_pyspark.py`
+- `requirements.txt`
+
+**Tools & Technologies**
+
+- PySpark
+- Apache Spark
+- Google Colab
+- Python
+
+---
+
 # 💡 Technical Skills Strengthened
 
 Throughout the internship, I have gained hands-on experience in:
@@ -208,6 +243,8 @@ Throughout the internship, I have gained hands-on experience in:
 - Metadata Validation
 - IAM Role Management
 - Cloud Data Integration
+- Distributed Data Processing with PySpark
+- Spark DataFrame Transformations & Aggregations
 
 ---
 
