@@ -1,0 +1,51 @@
+Product_ID,Product_Name,Category,Region,Priority,Status,Base_Price,Price,Quantity,Sales,Customer_ID,Date
+P001,Wireless Mouse,Electronics,East,High,Completed,2697.01,2961.68,9,26655.12,,2026-04-23
+P002,Wireless Mouse,Electronics,North,High,Completed,809.42,801.14,11,8812.54,CUST014,2026-03-02
+P003,Sofa Cushion Set,Furniture,East,Low,Completed,20174.61,21982.82,6,131896.92,CUST007,2026-04-01
+P004,Bluetooth Speaker,Electronics,West,High,Pending,15152.59,16840.98,12,202091.76,CUST004,2026-04-11
+P005,Mechanical Keyboard,Electronics,East,Medium,Pending,1288.74,1283.04,5,6415.2,CUST008,2026-01-30
+P006,Bookshelf,Furniture,West,Medium,Completed,9349.0,9273.29,5,46366.45,CUST022,2026-06-19
+P007,USB-C Charger,Electronics,South,High,Completed,24739.66,26669.35,9,240024.15,CUST011,2026-01-19
+P008,Basmati Rice 5kg,Grocery,East,Medium,Completed,22841.43,24290.4,12,291484.8,CUST021,2026-05-12
+P009,Bed Side Lamp,Furniture,South,High,Completed,14100.0,14135.93,10,141359.3,CUST019,2026-04-17
+P010,Denim Jacket,Clothing,South,Medium,Completed,1320.84,1283.76,11,14121.36,CUST022,2026-04-23
+P011,Building Blocks Set,Toys,West,Medium,Cancelled,13298.49,15216.34,1,15216.34,CUST004,2026-06-28
+P012,Puzzle 1000pc,Toys,East,High,Completed,11425.03,13033.25,12,156399.0,CUST017,2026-02-19
+P013,Building Blocks Set,Toys,East,Low,Completed,5092.94,5219.16,3,15657.48,CUST025,2026-05-20
+P014,Smartwatch,Electronics,West,High,Cancelled,21986.24,24543.97,5,122719.85,CUST008,2026-05-30
+P015,Bluetooth Speaker,Electronics,West,Low,Cancelled,13387.75,13055.09,11,143605.99,CUST018,2026-02-16
+P016,Winter Hoodie,Clothing,West,Low,Cancelled,18918.34,20582.65,12,246991.8,CUST022,2026-06-20
+P017,Formal Shirt,Clothing,West,High,Completed,8551.43,9130.03,4,36520.12,CUST001,2026-01-23
+P018,Laptop Stand,Electronics,North,Low,Cancelled,1910.81,1906.23,11,20968.53,CUST018,2026-02-07
+P019,Action Figure,Toys,South,Low,Pending,4881.69,4732.24,7,33125.68,CUST014,2026-05-04
+P020,Bluetooth Speaker,Electronics,North,Medium,Completed,21562.56,21556.77,4,86227.08,CUST005,2026-04-23
+P021,Green Tea Pack,Grocery,West,High,Cancelled,11161.8,12526.55,9,112738.95,,2026-06-20
+P022,Building Blocks Set,Toys,North,Low,Pending,4282.83,4484.67,4,17938.68,CUST002,2026-02-16
+P023,Study Table,Furniture,West,High,Pending,11456.96,11853.39,12,142240.68,CUST018,2026-06-23
+P024,Office Chair,Furniture,South,High,Cancelled,14542.63,15392.49,12,184709.88,CUST002,2026-06-03
+P025,Sofa Cushion Set,Furniture,South,High,Completed,21305.86,20532.55,2,41065.1,CUST008,2026-04-18
+P026,Laptop Stand,Electronics,North,Medium,Completed,14654.26,15453.75,5,77268.75,CUST023,2026-03-26
+P027,Green Tea Pack,Grocery,West,High,Pending,11512.03,13075.41,2,26150.82,,2026-06-13
+P028,Building Blocks Set,Toys,North,Medium,Completed,3441.55,3509.7,2,7019.4,CUST012,2026-03-18
+P029,Almonds 500g,Grocery,East,Medium,Cancelled,16401.31,15606.91,9,140462.19,CUST022,2026-01-31
+P030,Green Tea Pack,Grocery,North,Low,Pending,4012.88,4038.37,4,16153.48,CUST007,2026-06-29
+P031,Winter Hoodie,Clothing,West,High,Cancelled,1412.35,1520.9,5,7604.5,,2026-03-31
+P032,Whole Wheat Atta 5kg,Grocery,East,High,Completed,17685.84,18785.57,2,37571.14,,2026-02-12
+P033,Building Blocks Set,Toys,East,Medium,Completed,3317.02,3355.67,1,3355.67,CUST007,2026-06-28
+P034,Whole Wheat Atta 5kg,Grocery,North,Medium,Completed,21886.61,25055.08,12,300660.96,CUST008,2026-02-15
+P035,Almonds 500g,Grocery,North,High,Cancelled,19592.3,20225.97,11,222485.67,CUST008,2026-03-14
+P036,Whole Wheat Atta 5kg,Grocery,North,Medium,Completed,11846.65,11727.17,8,93817.36,CUST008,2026-03-03
+P037,Laptop Stand,Electronics,West,High,Cancelled,24177.19,24318.02,11,267498.22,CUST022,2026-05-22
+P038,Cotton T-Shirt,Clothing,North,Low,Completed,14577.65,16716.34,1,16716.34,CUST014,2026-04-03
+P039,Formal Shirt,Clothing,North,Medium,Completed,6479.85,7074.42,1,7074.42,CUST018,2026-06-29
+P040,Green Tea Pack,Grocery,West,High,Pending,8355.47,8462.28,2,16924.56,CUST010,2026-05-14
+P041,Formal Shirt,Clothing,East,Medium,Completed,3313.1,3426.04,7,23982.28,CUST006,2026-06-11
+P042,Puzzle 1000pc,Toys,West,Medium,Completed,7279.81,7541.72,10,75417.2,CUST011,2026-05-04
+P043,Bed Side Lamp,Furniture,South,Medium,Pending,24001.83,26334.62,11,289680.82,,2026-05-16
+P044,Puzzle 1000pc,Toys,North,Low,Pending,16868.97,16783.41,4,67133.64,CUST002,2026-03-08
+P045,Sofa Cushion Set,Furniture,North,Medium,Cancelled,14455.42,15809.45,7,110666.15,CUST008,2026-02-11
+P046,Bluetooth Speaker,Electronics,West,High,Pending,17443.41,18191.91,9,163727.19,CUST004,2026-05-01
+P047,Almonds 500g,Grocery,East,Low,Cancelled,15374.41,16817.37,9,151356.33,CUST018,2026-04-29
+P048,Whole Wheat Atta 5kg,Grocery,West,Medium,Pending,21020.59,21135.41,9,190218.69,CUST008,2026-03-16
+P049,Study Table,Furniture,East,High,Completed,22341.72,21584.68,3,64754.04,CUST023,2026-02-13
+P050,Basmati Rice 5kg,Grocery,West,Medium,Completed,10481.99,10391.5,7,72740.5,CUST025,2026-06-03
