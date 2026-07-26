@@ -26,6 +26,7 @@ CEI-2026/
 ├── Week-3/
 ├── Week-4/
 ├── Week-5/
+├── Week-6/
 └── README.md
 ```
 
@@ -42,6 +43,7 @@ Each weekly folder contains notebooks, SQL scripts, Azure resources, reports, da
 | Week 3 | Advanced SQL (Subqueries, CTEs & Window Functions) | SQL, SQLite | ✅ Completed |
 | Week 4 | Azure Cloud Fundamentals & Azure Data Factory Pipeline | Azure, Azure Blob Storage, Azure Data Factory, IAM | ✅ Completed |
 | Week 5 | Data Cleaning, Transformation & Aggregation using PySpark | PySpark, Apache Spark, Google Colab | ✅ Completed |
+| Week 6 | Apache Spark & PySpark — Retail Analytics Pipeline | ✅ Completed |
 
 ---
 
@@ -223,6 +225,48 @@ Perform large-scale data cleaning, transformation, and aggregation using PySpark
 - Google Colab
 - Python
 
+---
+
+# 🔥 Week 6 — Apache Spark & PySpark: Retail Analytics Pipeline
+ 
+### Objective
+ 
+Develop a comprehensive PySpark workflow using a realistic retail transactions dataset, covering Spark session initialization, schema-aware CSV ingestion, exploratory data analysis, DataFrame transformations, conditional filtering, data type casting, derived column creation, and CSV/Parquet read-write operations. The project also demonstrates key Apache Spark architecture concepts and is presented as a complete internship deliverable with detailed documentation, a technical report, and GitHub-ready artifacts.
+ 
+### Key Tasks
+ 
+- Initialized a local `SparkSession` and loaded a 50-row retail dataset with `header=true`
+  and `inferSchema=true`
+- Explored schema and data quality (`printSchema()`, `show()`, null-value checks on
+  `Customer_ID`)
+- Explained Spark's Driver / Cluster Manager / Executor architecture and Client vs.
+  Cluster deployment modes
+- Explained Lazy Evaluation and how the DAG/lineage graph enables fault tolerance
+- Selected and filtered columns (`product_id`, `price` where `category == 'Electronics'`)
+- Renamed a column and cast `price` from `String` to `Double`
+- Applied compound `AND` (`status == 'Completed' AND amount > 1000`) and `OR`
+  (`region == 'North' OR priority == 'High'`) filters
+- Added a calculated column (`final_price = base_price * 1.18`)
+- Compared CSV (row-based) vs. Parquet (columnar) storage and explained Predicate Pushdown
+- Read Parquet, filtered out null `user_id` rows, and wrote the cleaned result to CSV
+- Inspected the physical execution plan with `explain()` and reasoned about `.show()` vs.
+  `.collect()` on large datasets
+- Wrote CSV and Parquet outputs and documented every step in a full internship report
+
+### Technologies Used
+ 
+- PySpark (DataFrame API)
+- Apache Spark (local mode)
+- Jupyter Notebook
+- Python, Pandas (dataset generation & verification)
+- CSV & Parquet
+
+### Deliverables
+ 
+- Jupyter Notebook (`Week6_PySpark(1).ipynb`)
+- Internship Report (`week6_assignment_report(1).pdf`)
+- Sample Dataset (`sample_retail_dataset.csv`)
+- Requirements(`requirements.txt`)
 ---
 
 # 💡 Technical Skills Strengthened
