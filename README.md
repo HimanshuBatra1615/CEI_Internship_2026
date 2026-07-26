@@ -43,7 +43,7 @@ Each weekly folder contains notebooks, SQL scripts, Azure resources, reports, da
 | Week 3 | Advanced SQL (Subqueries, CTEs & Window Functions) | SQL, SQLite | ✅ Completed |
 | Week 4 | Azure Cloud Fundamentals & Azure Data Factory Pipeline | Azure, Azure Blob Storage, Azure Data Factory, IAM | ✅ Completed |
 | Week 5 | Data Cleaning, Transformation & Aggregation using PySpark | PySpark, Apache Spark, Google Colab | ✅ Completed |
-| Week 6 | Apache Spark & PySpark — Retail Analytics Pipeline | ✅ Completed |
+| Week 6 | Apache Spark & PySpark — Retail Analytics Pipeline | PySpark, Apache Spark, Spark SQL | ✅ Completed |
 
 ---
 
