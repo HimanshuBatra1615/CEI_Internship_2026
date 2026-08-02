@@ -137,8 +137,6 @@ Raw CSV ─► Ingest ─► Validate ─► Clean ─► Transform ─► Delta
 ```
 Week-7/
 ├── 📓 Week7_DeltaLake_Pipeline.ipynb    # Main notebook (full pipeline)
-├── 📄 Week7_Report.docx                  # Professional report (Word)
-├── 📄 Week7_Report.pdf                   # Professional report (PDF)
 ├── 🐍 week7_pipeline.py                  # Executable Python script
 ├── 📋 README.md                          # This file
 ├── 📦 requirements.txt                   # Python dependencies
@@ -146,9 +144,6 @@ Week-7/
 ├── 📊 cleaned_superstore.csv             # Cleaned + engineered dataset
 ├── 📊 updated_superstore.csv             # Post-transformation dataset
 ├── 📊 merged_output.csv                  # Post-MERGE output
-├── 📁 delta_superstore/                  # Delta Lake table files
-│   ├── _delta_log/                       # Transaction log (JSON)
-│   └── *.parquet                         # Data files
 └── 📁 screenshots/                       # Visualization outputs
     ├── 01_sales_by_region.png
     ├── 02_sales_by_category.png
@@ -346,4 +341,5 @@ delta_table.alias("target").merge(
 
 *Week 7 — Delta Lake & Advanced Data Engineering*
 
+*Himanshu Batra - CEI 2026 - Data Engineer Intern - DIT University*
 </div>
