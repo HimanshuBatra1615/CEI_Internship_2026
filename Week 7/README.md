@@ -1,6 +1,6 @@
-<![CDATA[<div align="center">
+<div align="center">
 
-# 🏗️ Week 6 — Delta Lake Data Engineering Pipeline
+# 🏗️ Week 7 — Delta Lake Data Engineering Pipeline
 
 ### Production-Grade ETL with PySpark, Delta Lake & MERGE Operations
 
@@ -69,7 +69,7 @@ This project demonstrates all of the above using the open-source Delta Lake form
 
 ## 🏛️ Architecture
 
-```
+```text
 ┌──────────────┐     ┌──────────────┐     ┌──────────────┐     ┌──────────────┐
 │  Raw CSV     │────▶│  PySpark     │────▶│  Delta Lake  │────▶│  Analytics   │
 │  Ingestion   │     │  Processing  │     │  Storage     │     │  & Reports   │
@@ -135,11 +135,11 @@ Raw CSV ─► Ingest ─► Validate ─► Clean ─► Transform ─► Delta
 ## 📁 Folder Structure
 
 ```
-Week-6/
-├── 📓 Week6_DeltaLake_Pipeline.ipynb    # Main notebook (full pipeline)
-├── 📄 Week6_Report.docx                  # Professional report (Word)
-├── 📄 Week6_Report.pdf                   # Professional report (PDF)
-├── 🐍 week6_pipeline.py                  # Executable Python script
+Week-7/
+├── 📓 Week7_DeltaLake_Pipeline.ipynb    # Main notebook (full pipeline)
+├── 📄 Week7_Report.docx                  # Professional report (Word)
+├── 📄 Week7_Report.pdf                   # Professional report (PDF)
+├── 🐍 week7_pipeline.py                  # Executable Python script
 ├── 📋 README.md                          # This file
 ├── 📦 requirements.txt                   # Python dependencies
 ├── 📊 original_superstore.csv            # Raw dataset (10,800 rows)
@@ -204,10 +204,10 @@ cd Week-6
 pip install -r requirements.txt
 
 # 3. Option A: Run the Python script
-python week6_pipeline.py
+python week7_pipeline.py
 
 # 4. Option B: Open the Jupyter notebook
-jupyter notebook Week6_DeltaLake_Pipeline.ipynb
+jupyter notebook Week7_DeltaLake_Pipeline.ipynb
 ```
 
 ### Environment Variables (Optional)
@@ -344,7 +344,6 @@ delta_table.alias("target").merge(
 
 **Built with ❤️ for the Celebal Technologies Data Engineering Internship**
 
-*Week 6 — Delta Lake & Advanced Data Engineering*
+*Week 7 — Delta Lake & Advanced Data Engineering*
 
 </div>
-]]>
