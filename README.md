@@ -80,6 +80,34 @@ CEI-2026/
 │   ├── requirements.txt
 │   └── README.md
 │
+├── Week 8/
+│   ├── data/
+│   │   ├── raw/
+│   │   ├── cleaned/
+│   │   ├── rejected/
+│   │   └── reports/
+│   ├── docs/
+│   │   ├── charts/
+│   │   ├── data_model_documentation.md
+│   │   └── project_report.md
+│   ├── python/
+│   │   ├── config.py
+│   │   ├── generate_data.py
+│   │   ├── clean_data.py
+│   │   ├── loader.py
+│   │   ├── cli.py
+│   │   ├── report_generator.py
+│   │   └── visualizer.py
+│   ├── sql/
+│   │   ├── schema.sql
+│   │   ├── basic_queries.sql
+│   │   ├── intermediate_queries.sql
+│   │   └── advanced_queries.sql
+│   ├── tests/
+│   │   └── test_edge_cases.py
+│   ├── requirements.txt
+│   └── README.md
+│
 └── README.md
 ```
 
@@ -96,6 +124,7 @@ CEI-2026/
 | Week 5 | Data Cleaning, Transformation & Aggregation using PySpark | PySpark, Apache Spark | ✅ Completed |
 | Week 6 | Retail Analytics Pipeline using Apache Spark | PySpark, Spark SQL | ✅ Completed |
 | Week 7 | Delta Lake ETL Pipeline & Slowly Changing Dimensions (SCD) | PySpark, Delta Lake, Spark SQL | ✅ Completed |
+| Week 8 | Online Marketplace Customer & Order Intelligence System (OMIS) | Python, SQL, SQLite, Pandas, Matplotlib, Seaborn, unittest | ✅ Completed |
 
 ---
 
@@ -282,6 +311,36 @@ Develop a production-grade Delta Lake pipeline implementing Slowly Changing Dime
 - Delta Lake
 - Spark SQL
 - Pandas
+
+---
+
+## 🛍️ Week 8 — Online Marketplace Customer & Order Intelligence System (OMIS)
+
+### Objective
+
+Build a production-grade Online Marketplace Customer & Order Intelligence System featuring synthetic data generation with controlled anomalies, non-destructive data quality quarantine, normalized 3NF SQLite database, 20 advanced SQL analytics queries, customer RFM segmentation, interactive CLI BI tool, 8 analytical visualizations, and edge-case unit tests.
+
+### Highlights
+
+- Synthetic Data Generation across 5 Entities (Customers, Products, Orders, Order Items, Returns)
+- Controlled Data Anomaly Injection & Non-Destructive Quarantine Pipeline (`data/rejected/`)
+- Automated Markdown Quality Audit Report Generation (`quality_audit.md`)
+- 3NF Star/Snowflake SQLite Schema with `ON DELETE CASCADE` and Indexing
+- 20 Progressive SQL Queries (Window Functions, CTEs, Cohort Retention, RFM, Market Basket)
+- Customer RFM Segmentation (`VIP`, `High Value`, `Regular`, `Occasional`, `At Risk`)
+- Menu-Driven CLI BI Tool with Custom Date Range & Period-over-Period Reporting
+- 8 High-Resolution Analytical Visualizations (`docs/charts/`)
+- Standard `unittest.TestCase` Edge-Case Test Suite (15 Test Cases, 100% Pass)
+
+### Technologies
+
+- Python
+- SQL / SQLite
+- Pandas
+- Matplotlib
+- Seaborn
+- NumPy
+- unittest
 
 ---
 
