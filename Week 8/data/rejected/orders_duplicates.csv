@@ -1,0 +1,2 @@
+order_id,customer_id,order_date,status,region_code
+1,100,2024-01-01 10:00:00,DELIVERED,NA-EAST

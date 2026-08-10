@@ -1,0 +1,23 @@
+DATA PROFILE REPORT
+============================================================
+
+Dataset: customers
+  Rows: 600, Columns: 5
+  Null counts per column:
+
+Dataset: products
+  Rows: 220, Columns: 5
+  Null counts per column:
+
+Dataset: orders
+  Rows: 1500, Columns: 5
+  Null counts per column:
+    customer_id: 84
+
+Dataset: order_items
+  Rows: 2812, Columns: 6
+  Null counts per column:
+
+Dataset: returns
+  Rows: 97, Columns: 7
+  Null counts per column:

@@ -1,0 +1,12 @@
+customer_id,customer_name,email,registration_date,customer_type
+70,Yuki Muller,yuki.muller70@,2025-09-20,REGULAR
+142,Yuki Chen,yuki.chen142@,2024-09-30,REGULAR
+173,Robert Garcia,robert.garcia173@,2025-11-12,REGULAR
+257,John Park,john.park257example.com,2022-09-24,REGULAR
+284,Wei Wang,wei.wang284example.com,2025-03-05,REGULAR
+295,Wei Brown,wei.brown295@,2022-12-26,REGULAR
+354,Arjun Silva,arjun.silva354@,2023-05-08,REGULAR
+461,Arjun Johnson,arjun.johnson461example.com,2023-11-18,REGULAR
+533,Olivia Silva,olivia.silva533@,2025-01-02,VIP
+546,Jennifer Chen,jennifer.chen546example.com,2025-04-17,REGULAR
+558,Patricia Williams,patricia.williams558@,2024-06-29,REGULAR

@@ -1,0 +1,2 @@
+item_id,order_id,product_id,quantity,unit_price,discount_percent
+1,1,10,2,20.0,150

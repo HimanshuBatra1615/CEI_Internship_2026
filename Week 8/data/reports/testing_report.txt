@@ -1,0 +1,9 @@
+EDGE CASE TESTING REPORT (unittest)
+==================================================
+
+Tests run:    15
+Failures:     0
+Errors:       0
+Skipped:      0
+
+RESULT: ALL TESTS PASSED

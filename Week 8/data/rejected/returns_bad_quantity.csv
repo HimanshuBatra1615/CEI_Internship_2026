@@ -1,0 +1,2 @@
+return_id,order_id,product_id,quantity,return_date,reason,refund_amount
+1,10,5,0,2024-02-01,DEFECTIVE,0.0

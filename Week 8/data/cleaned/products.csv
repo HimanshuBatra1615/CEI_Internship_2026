@@ -1,0 +1,221 @@
+product_id,product_name,category,subcategory,cost_price
+1,Ultra Bookshelf,Home,Furniture,138.55
+2,Premium Microwave,Home,Appliances,202.35
+3,Max Bedsheet Set,Home,Bedding,408.73
+4,Ultra Vacuum Cleaner,Home,Appliances,339.33
+5,Max T-Shirt,Clothing,Kids,61.01
+6,Premium Textbook,Books,Academic,26.1
+7,Smart Sweater,Clothing,Winterwear,49.01
+8,Deluxe Picture Book,Books,Children,57.35
+9,Essential Boots,Clothing,Footwear,100.74
+10,Smart Study Guide,Books,Academic,14.2
+11,Classic T-Shirt,Clothing,Kids,39.93
+12,Essential Activity Book,Books,Children,33.09
+13,Essential Microwave,Home,Appliances,413.08
+14,Compact Picture Book,Books,Children,10.63
+15,Smart T-Shirt,Clothing,Kids,45.32
+16,Lite Charger,Electronics,Accessories,409.39
+17,Compact Vacuum Cleaner,Home,Appliances,91.33
+18,Premium Dress,Clothing,Women,57.82
+19,Classic Onesie,Clothing,Kids,49.09
+20,Pro Ultrabook,Electronics,Laptops,1786.78
+21,Max Top,Clothing,Women,109.02
+22,Premium Textbook,Books,Academic,39.78
+23,Ultra Textbook,Books,Academic,27.16
+24,Deluxe Comforter,Home,Bedding,295.16
+25,Ultra Cable,Electronics,Accessories,1440.39
+26,Classic Self-Help Book,Books,Non-Fiction,22.76
+27,Deluxe Coat,Clothing,Winterwear,134.97
+28,Smart 5G Handset,Electronics,Phones,68.66
+29,Pro Sandals,Clothing,Footwear,148.84
+30,Classic T-Shirt,Clothing,Kids,21.25
+31,Max Speaker,Electronics,Audio,131.15
+32,Ultra Boots,Clothing,Footwear,107.93
+33,Lite Notebook,Electronics,Laptops,954.22
+34,Compact Headphones,Electronics,Audio,1261.49
+35,Ultra Sneakers,Clothing,Footwear,22.65
+36,Max Bookshelf,Home,Furniture,324.37
+37,Pro Webcam,Electronics,Cameras,1114.16
+38,Max Coffee Table,Home,Furniture,460.75
+39,Ultra Biography,Books,Non-Fiction,12.7
+40,Deluxe Comic Bundle,Books,Comics,48.51
+41,Premium Notebook,Electronics,Laptops,1096.01
+42,Essential Headphones,Electronics,Audio,1108.19
+43,Lite Graphic Novel,Books,Comics,32.22
+44,Essential Picture Book,Books,Children,53.88
+45,Premium Bookshelf,Home,Furniture,216.22
+46,Pro Sneakers,Clothing,Footwear,91.41
+47,Essential Flip Phone,Electronics,Phones,544.22
+48,Ultra Study Guide,Books,Academic,40.23
+49,Classic T-Shirt,Clothing,Kids,19.22
+50,Compact Coat,Clothing,Winterwear,91.27
+51,Compact Speaker,Electronics,Audio,1324.73
+52,Compact Laptop,Electronics,Laptops,244.14
+53,Max Speaker,Electronics,Audio,250.22
+54,Deluxe Ultrabook,Electronics,Laptops,960.49
+55,Max Bookshelf,Home,Furniture,377.39
+56,Compact Flip Phone,Electronics,Phones,518.69
+57,Essential Power Bank,Electronics,Accessories,673.82
+58,Classic T-Shirt,Clothing,Kids,117.81
+59,Essential Notebook,Electronics,Laptops,44.52
+60,Smart Laptop,Electronics,Laptops,680.6
+61,Lite Shirt,Clothing,Men,53.7
+62,Premium Wall Art,Home,Decor,192.68
+63,Essential Laptop,Electronics,Laptops,1767.29
+64,Classic Cable,Electronics,Accessories,616.05
+65,Classic Headphones,Electronics,Audio,1032.3
+66,Premium Sandals,Clothing,Footwear,146.0
+67,Max Sweater,Clothing,Winterwear,8.91
+68,Pro Coat,Clothing,Winterwear,143.04
+69,Lite Graphic Novel,Books,Comics,34.14
+70,Classic Novel,Books,Fiction,10.12
+71,Ultra Comic Bundle,Books,Comics,36.94
+72,Premium Thriller,Books,Fiction,8.43
+73,Classic Leggings,Clothing,Women,128.83
+74,Smart Comic Bundle,Books,Comics,19.96
+75,Max Sweater,Clothing,Winterwear,23.0
+76,Essential Pillow Set,Home,Bedding,185.56
+77,Classic Comic Bundle,Books,Comics,51.89
+78,Lite Air Fryer,Home,Appliances,419.6
+79,Compact Ultrabook,Electronics,Laptops,943.69
+80,Compact Office Chair,Home,Furniture,428.75
+81,Ultra Shirt,Clothing,Men,122.15
+82,Max Smartphone,Electronics,Phones,388.71
+83,Classic Webcam,Electronics,Cameras,1654.67
+84,Ultra Sneakers,Clothing,Footwear,136.52
+85,Smart Blender,Home,Kitchen,34.81
+86,Pro Study Guide,Books,Academic,26.05
+87,Classic Office Chair,Home,Furniture,147.13
+88,Premium Webcam,Electronics,Cameras,472.58
+89,Pro Activity Book,Books,Children,9.82
+90,Essential History Book,Books,Non-Fiction,18.7
+91,Smart Cable,Electronics,Accessories,998.35
+92,Max Comforter,Home,Bedding,22.77
+93,Smart Headphones,Electronics,Audio,971.8
+94,Lite Dress,Clothing,Women,101.27
+95,Compact Notebook,Electronics,Laptops,664.46
+96,Premium Top,Clothing,Women,53.16
+97,Deluxe Air Fryer,Home,Appliances,474.3
+98,Classic Boots,Clothing,Footwear,32.93
+99,Pro Sweater,Clothing,Winterwear,82.76
+100,Max Leggings,Clothing,Women,138.47
+101,Max Blender,Home,Kitchen,297.44
+102,Ultra Action Camera,Electronics,Cameras,697.52
+103,Deluxe Picture Book,Books,Children,21.6
+104,Smart Boots,Clothing,Footwear,100.18
+105,Premium Coffee Table,Home,Furniture,409.08
+106,Pro Office Chair,Home,Furniture,474.91
+107,Max Picture Book,Books,Children,38.13
+108,Smart Sweater,Clothing,Winterwear,27.97
+109,Max Shorts,Clothing,Kids,98.34
+110,Classic Pillow Set,Home,Bedding,112.75
+111,Pro Wall Art,Home,Decor,33.59
+112,Smart Self-Help Book,Books,Non-Fiction,53.5
+113,Premium Short Story Collection,Books,Fiction,40.8
+114,Pro Sneakers,Clothing,Footwear,49.88
+115,Max Flip Phone,Electronics,Phones,1602.76
+116,Deluxe Dslr Camera,Electronics,Cameras,1085.49
+117,Max Short Story Collection,Books,Fiction,38.4
+118,Lite Flip Phone,Electronics,Phones,1754.94
+119,Lite Vase,Home,Decor,57.0
+120,Deluxe Biography,Books,Non-Fiction,5.21
+121,Pro Biography,Books,Non-Fiction,16.38
+122,Classic Charger,Electronics,Accessories,1421.38
+123,Essential Knife Set,Home,Kitchen,199.89
+124,Smart Graphic Novel,Books,Comics,7.45
+125,Premium Bookshelf,Home,Furniture,40.2
+126,Deluxe 5G Handset,Electronics,Phones,1462.4
+127,Compact Sweater,Clothing,Winterwear,124.21
+128,Smart Picture Book,Books,Children,21.44
+129,Essential Webcam,Electronics,Cameras,1448.79
+130,Max Shirt,Clothing,Men,142.77
+131,Pro Top,Clothing,Women,68.12
+132,Max History Book,Books,Non-Fiction,50.88
+133,Essential Flip Phone,Electronics,Phones,739.34
+134,Pro Microwave,Home,Appliances,395.41
+135,Max Short Story Collection,Books,Fiction,13.15
+136,Ultra 5G Handset,Electronics,Phones,1422.91
+137,Compact Comforter,Home,Bedding,330.85
+138,Classic Novel,Books,Fiction,27.16
+139,Deluxe Short Story Collection,Books,Fiction,42.98
+140,Deluxe Wall Art,Home,Decor,410.52
+141,Ultra Bedsheet Set,Home,Bedding,486.52
+142,Classic Comforter,Home,Bedding,367.11
+143,Lite Ultrabook,Electronics,Laptops,1647.64
+144,Pro Activity Book,Books,Children,33.34
+145,Max Microwave,Home,Appliances,392.45
+146,Lite Laptop,Electronics,Laptops,1513.08
+147,Lite Short Story Collection,Books,Fiction,20.07
+148,Pro Thriller,Books,Fiction,18.31
+149,Premium Self-Help Book,Books,Non-Fiction,35.32
+150,Pro Cookware Set,Home,Kitchen,199.42
+151,Lite Top,Clothing,Women,46.21
+152,Max Flip Phone,Electronics,Phones,1179.37
+153,Premium Ultrabook,Electronics,Laptops,1456.95
+154,Deluxe Comforter,Home,Bedding,234.91
+155,Compact Vacuum Cleaner,Home,Appliances,296.4
+156,Premium Vacuum Cleaner,Home,Appliances,308.43
+157,Deluxe Charger,Electronics,Accessories,1779.52
+158,Classic Candle Set,Home,Decor,102.3
+159,Deluxe Shirt,Clothing,Men,104.67
+160,Compact Comic Bundle,Books,Comics,27.25
+161,Lite Onesie,Clothing,Kids,105.46
+162,Max Comic Bundle,Books,Comics,51.24
+163,Smart T-Shirt,Clothing,Kids,26.17
+164,Ultra Onesie,Clothing,Kids,39.56
+165,Deluxe Comforter,Home,Bedding,137.67
+166,Premium Charger,Electronics,Accessories,1061.35
+167,Ultra History Book,Books,Non-Fiction,52.71
+168,Max Pillow Set,Home,Bedding,77.31
+169,Max Activity Book,Books,Children,22.4
+170,Max Cable,Electronics,Accessories,591.61
+171,Premium Office Chair,Home,Furniture,384.6
+172,Compact Notebook,Electronics,Laptops,1154.94
+173,Pro Textbook,Books,Academic,34.36
+174,Lite Speaker,Electronics,Audio,71.53
+175,Classic Leggings,Clothing,Women,26.31
+176,Pro Office Chair,Home,Furniture,156.12
+177,Max Bedsheet Set,Home,Bedding,177.94
+178,Compact Office Chair,Home,Furniture,19.37
+179,Premium Dress,Clothing,Women,79.66
+180,Essential Cable,Electronics,Accessories,1136.72
+181,Pro 5G Handset,Electronics,Phones,124.89
+182,Essential Textbook,Books,Academic,18.9
+183,Compact Jacket,Clothing,Men,101.96
+184,Max Vacuum Cleaner,Home,Appliances,215.22
+185,Ultra Headphones,Electronics,Audio,916.02
+186,Deluxe Air Fryer,Home,Appliances,354.68
+187,Lite Action Camera,Electronics,Cameras,1251.24
+188,Ultra T-Shirt,Clothing,Men,136.78
+189,Essential Biography,Books,Non-Fiction,9.13
+190,Classic Bookshelf,Home,Furniture,139.42
+191,Deluxe Earbuds,Electronics,Audio,789.75
+192,Max Smartphone,Electronics,Phones,618.44
+193,Deluxe Cookware Set,Home,Kitchen,99.61
+194,Smart Comic Bundle,Books,Comics,48.99
+195,Pro Jeans,Clothing,Men,147.38
+196,Premium Power Bank,Electronics,Accessories,1233.97
+197,Max Graphic Novel,Books,Comics,31.57
+198,Ultra Textbook,Books,Academic,19.39
+199,Essential Onesie,Clothing,Kids,105.73
+200,Deluxe Self-Help Book,Books,Non-Fiction,41.5
+201,Pro Scarf,Clothing,Winterwear,9.65
+202,Ultra Textbook,Books,Academic,46.33
+203,Essential Wall Art,Home,Decor,119.13
+204,Smart Biography,Books,Non-Fiction,29.43
+205,Deluxe Power Bank,Electronics,Accessories,248.92
+206,Compact Flip Phone,Electronics,Phones,103.06
+207,Classic Webcam,Electronics,Cameras,1606.6
+208,Pro Comic Bundle,Books,Comics,49.91
+209,Premium Vacuum Cleaner,Home,Appliances,241.84
+210,Lite Novel,Books,Fiction,5.12
+211,Deluxe Vacuum Cleaner,Home,Appliances,354.03
+212,Compact History Book,Books,Non-Fiction,10.88
+213,Lite Shirt,Clothing,Men,72.9
+214,Pro Cookware Set,Home,Kitchen,464.05
+215,Premium Power Bank,Electronics,Accessories,1722.89
+216,Pro Thriller,Books,Fiction,35.43
+217,Premium Picture Book,Books,Children,14.55
+218,Essential Cable,Electronics,Accessories,1591.25
+219,Deluxe Shorts,Clothing,Kids,145.81
+220,Premium Blouse,Clothing,Women,107.4

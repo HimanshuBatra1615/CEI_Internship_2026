@@ -1,0 +1,37 @@
+DATA QUALITY SUMMARY
+============================================================
+
+Row counts (before -> after cleaning):
+  customers          600  ->     600
+  products           220  ->     220
+  orders            1500  ->    1500
+  order_items       2812  ->    2782
+  returns             97  ->      97
+
+Invalid emails found: 11
+Orphaned order_items found (pre-clean): 30
+
+Per-rule issue counts:
+  [customers] invalid_email: 11 - email missing '@' or a valid domain
+  [order_items] orphan_order_or_product_id: 30 - order_items row references a non-existent order_id or product_id
+  [customers] duplicate_customer_id: 0 - duplicate customer_id rows removed
+  [customers] rows_removed_total: 0 - duplicate customer_id rows dropped
+  [products] messy_product_name: 17 - extra whitespace or inconsistent casing; normalized to trimmed Title Case
+  [products] invalid_category: 0 - category outside Electronics/Clothing/Home/Books
+  [products] non_positive_cost_price: 0 - cost_price <= 0, which is not physically valid
+  [products] duplicate_product_id: 0 - duplicate product_id rows removed
+  [products] rows_removed_total: 0 - duplicate product_id rows dropped
+  [orders] missing_customer_id: 84 - customer_id was NULL or blank; retained but flagged (guest checkout)
+  [orders] unparseable_order_date: 0 - order_date did not match any known format — quarantined
+  [orders] future_order_date: 19 - order_date is later than current date (data-entry error); retained, flagged
+  [orders] duplicate_order_id: 0 - duplicate order_id rows removed
+  [orders] invalid_status: 0 - status value outside PLACED/SHIPPED/DELIVERED/CANCELLED/RETURNED
+  [orders] rows_removed_total: 0 - rows dropped (unparseable date or duplicate order_id)
+  [order_items] zero_quantity: 0 - quantity is exactly 0; represents no actual transaction — flagged
+  [order_items] invalid_discount_percent: 53 - discount_percent outside the valid 0-100 range; clipped to [0, 100]
+  [returns] non_positive_quantity: 0 - return quantity <= 0; physically invalid — quarantined and removed
+  [returns] negative_refund: 0 - refund_amount < 0; clipped to 0
+  [returns] duplicate_return_id: 0 - duplicate return_id rows removed
+  [returns] rows_removed_total: 0 - returns rows removed (bad quantity or duplicate id)
+  [order_items] rows_removed_orphans: 30 - order_items rows removed for referencing a non-existent order or product
+  [returns] rows_removed_orphans: 0 - returns rows removed for referencing a non-existent order or product
