@@ -1,0 +1,151 @@
+trip_id,driver_id,pickup_location,drop_location,distance_km,fare_amount,trip_status
+1,78,IT Park,IT Park,8.6,0.0,Cancelled
+2,114,Airport,Mall,17.54,203.08,Completed
+3,132,Railway Station,Mall,17.27,213.02,Completed
+4,58,Railway Station,IT Park,20.55,185.6,Completed
+5,19,IT Park,IT Park,12.47,177.11,Completed
+6,103,Airport,IT Park,7.61,95.83,Completed
+7,57,Airport,City Center,6.05,0.0,Cancelled
+8,64,IT Park,City Center,23.1,204.42,Completed
+9,144,City Center,City Center,15.7,0.0,Cancelled
+10,110,IT Park,IT Park,21.1,249.72,Completed
+11,67,City Center,IT Park,19.29,0.0,Cancelled
+12,62,Railway Station,Mall,8.32,0.0,Cancelled
+13,86,Railway Station,Railway Station,9.35,110.15,Completed
+14,99,IT Park,IT Park,17.96,232.49,Completed
+15,85,IT Park,IT Park,14.48,157.98,Completed
+16,150,IT Park,Airport,23.76,0.0,Cancelled
+17,91,City Center,City Center,8.87,0.0,Cancelled
+18,57,Airport,IT Park,13.23,0.0,Cancelled
+19,87,IT Park,Railway Station,17.38,236.14,Completed
+20,137,Airport,IT Park,2.62,28.19,Completed
+21,35,IT Park,Mall,21.94,0.0,Cancelled
+22,55,Mall,IT Park,12.46,0.0,Cancelled
+23,65,Mall,Railway Station,21.2,239.39,Completed
+24,18,Railway Station,Railway Station,19.97,250.87,Completed
+25,6,Airport,City Center,16.29,0.0,Cancelled
+26,56,Railway Station,City Center,12.7,0.0,Cancelled
+27,30,Airport,City Center,19.89,0.0,Cancelled
+28,7,IT Park,Railway Station,23.36,0.0,Cancelled
+29,20,Airport,Mall,15.62,215.77,Completed
+30,31,Mall,City Center,20.31,242.94,Completed
+31,110,Airport,IT Park,17.21,0.0,Cancelled
+32,126,Railway Station,IT Park,4.43,0.0,Cancelled
+33,46,City Center,City Center,18.88,0.0,Cancelled
+34,124,Mall,Railway Station,12.69,0.0,Cancelled
+35,23,City Center,City Center,8.42,0.0,Cancelled
+36,98,Railway Station,IT Park,9.74,0.0,Cancelled
+37,55,City Center,Mall,10.16,0.0,Cancelled
+38,143,Railway Station,IT Park,2.23,32.64,Completed
+39,126,IT Park,IT Park,14.77,0.0,Cancelled
+40,5,Mall,City Center,4.14,39.54,Completed
+41,95,City Center,Mall,12.88,0.0,Cancelled
+42,91,Railway Station,Airport,18.17,0.0,Cancelled
+43,50,Railway Station,Railway Station,9.26,122.23,Completed
+44,124,Airport,Railway Station,8.36,0.0,Cancelled
+45,76,City Center,Railway Station,7.23,66.92,Completed
+46,71,Railway Station,IT Park,3.05,0.0,Cancelled
+47,27,IT Park,IT Park,22.07,0.0,Cancelled
+48,88,Airport,Airport,6.24,0.0,Cancelled
+49,103,Railway Station,Railway Station,13.31,160.24,Completed
+50,145,Airport,City Center,23.83,204.85,Completed
+51,107,City Center,IT Park,15.95,215.89,Completed
+52,116,Mall,City Center,22.9,0.0,Cancelled
+53,16,Railway Station,Mall,16.02,211.15,Completed
+54,21,Railway Station,Airport,5.61,51.71,Completed
+55,105,Airport,Railway Station,12.36,0.0,Cancelled
+56,74,Airport,Railway Station,18.26,0.0,Cancelled
+57,68,IT Park,Airport,20.12,248.99,Completed
+58,140,Railway Station,Airport,7.17,0.0,Cancelled
+59,16,IT Park,Airport,5.82,0.0,Cancelled
+60,120,City Center,City Center,17.84,0.0,Cancelled
+61,127,Mall,City Center,12.07,0.0,Cancelled
+62,65,Mall,City Center,2.59,24.87,Completed
+63,11,Mall,Railway Station,19.55,0.0,Cancelled
+64,150,IT Park,Mall,12.03,164.81,Completed
+65,105,Mall,IT Park,9.67,122.72,Completed
+66,127,IT Park,Airport,8.63,126.14,Completed
+67,81,City Center,Airport,7.81,0.0,Cancelled
+68,139,City Center,IT Park,12.63,0.0,Cancelled
+69,114,Mall,IT Park,19.48,183.6,Completed
+70,125,Railway Station,Mall,4.79,70.95,Completed
+71,142,Airport,IT Park,2.31,25.08,Completed
+72,31,City Center,Mall,16.9,0.0,Cancelled
+73,107,IT Park,City Center,21.2,315.07,Completed
+74,38,Airport,Mall,10.82,156.38,Completed
+75,107,Airport,Mall,9.82,0.0,Cancelled
+76,77,Railway Station,IT Park,21.26,0.0,Cancelled
+77,138,IT Park,Mall,13.14,0.0,Cancelled
+78,49,Railway Station,IT Park,24.56,0.0,Cancelled
+79,12,IT Park,Railway Station,9.32,0.0,Cancelled
+80,127,Airport,IT Park,24.19,0.0,Cancelled
+81,26,IT Park,Railway Station,14.1,157.9,Completed
+82,20,City Center,IT Park,12.8,0.0,Cancelled
+83,21,Mall,IT Park,21.59,0.0,Cancelled
+84,139,Railway Station,Airport,2.83,0.0,Cancelled
+85,112,IT Park,Railway Station,24.5,326.4,Completed
+86,77,Mall,Mall,22.78,189.57,Completed
+87,96,City Center,Railway Station,11.91,0.0,Cancelled
+88,44,City Center,Railway Station,6.03,0.0,Cancelled
+89,128,Mall,IT Park,23.0,0.0,Cancelled
+90,66,Mall,City Center,17.34,0.0,Cancelled
+91,41,IT Park,Mall,3.7,0.0,Cancelled
+92,117,IT Park,Airport,21.44,0.0,Cancelled
+93,61,Mall,Airport,10.77,0.0,Cancelled
+94,102,City Center,IT Park,8.31,99.4,Completed
+95,74,Railway Station,Railway Station,19.84,0.0,Cancelled
+96,65,Airport,Airport,17.59,229.49,Completed
+97,80,Railway Station,Airport,20.14,0.0,Cancelled
+98,76,Railway Station,City Center,9.51,103.74,Completed
+99,94,Mall,IT Park,14.21,204.54,Completed
+100,76,IT Park,Airport,19.17,198.81,Completed
+101,37,City Center,Mall,19.35,0.0,Cancelled
+102,24,IT Park,Mall,20.19,163.49,Completed
+103,68,Airport,Railway Station,15.44,0.0,Cancelled
+104,121,City Center,Railway Station,2.58,0.0,Cancelled
+105,17,IT Park,Airport,16.61,0.0,Cancelled
+106,36,Airport,Airport,3.04,0.0,Cancelled
+107,61,Mall,City Center,22.41,0.0,Cancelled
+108,108,Airport,IT Park,15.51,0.0,Cancelled
+109,105,Railway Station,IT Park,23.6,0.0,Cancelled
+110,114,Mall,City Center,23.86,333.76,Completed
+111,92,IT Park,Airport,3.39,33.67,Completed
+112,55,Airport,Mall,16.76,204.14,Completed
+113,63,Airport,City Center,24.74,334.21,Completed
+114,54,Mall,Railway Station,15.49,212.08,Completed
+115,1,City Center,Mall,8.38,124.76,Completed
+116,45,Airport,Mall,4.53,63.72,Completed
+117,61,Airport,Railway Station,15.54,0.0,Cancelled
+118,108,IT Park,Mall,14.1,0.0,Cancelled
+119,132,City Center,Airport,15.65,174.72,Completed
+120,134,Airport,IT Park,8.94,111.78,Completed
+121,103,Airport,Airport,11.8,0.0,Cancelled
+122,83,City Center,City Center,15.99,0.0,Cancelled
+123,141,IT Park,City Center,18.38,0.0,Cancelled
+124,111,IT Park,IT Park,4.28,55.27,Completed
+125,59,IT Park,Airport,11.52,0.0,Cancelled
+126,81,Railway Station,IT Park,11.82,0.0,Cancelled
+127,18,Airport,Mall,4.1,0.0,Cancelled
+128,34,Airport,IT Park,14.8,0.0,Cancelled
+129,91,Airport,Mall,22.09,0.0,Cancelled
+130,80,Railway Station,IT Park,10.09,121.54,Completed
+131,58,Airport,Mall,21.49,0.0,Cancelled
+132,147,City Center,Mall,7.2,79.23,Completed
+133,8,Mall,Mall,6.15,0.0,Cancelled
+134,2,Airport,Railway Station,6.17,0.0,Cancelled
+135,8,IT Park,IT Park,4.11,0.0,Cancelled
+136,88,City Center,City Center,5.62,0.0,Cancelled
+137,22,Airport,Mall,22.32,202.87,Completed
+138,114,IT Park,Mall,17.22,0.0,Cancelled
+139,56,Airport,Mall,19.36,0.0,Cancelled
+140,125,IT Park,City Center,14.12,143.44,Completed
+141,15,Railway Station,Mall,2.18,22.04,Completed
+142,75,Railway Station,Railway Station,9.55,0.0,Cancelled
+143,98,Airport,IT Park,14.25,0.0,Cancelled
+144,11,Mall,City Center,12.03,134.96,Completed
+145,110,Mall,Airport,15.19,0.0,Cancelled
+146,104,Mall,Airport,2.48,0.0,Cancelled
+147,112,City Center,Airport,21.42,0.0,Cancelled
+148,102,Mall,Railway Station,22.02,291.12,Completed
+149,20,Mall,Mall,13.74,120.89,Completed
+150,38,Railway Station,City Center,7.43,67.06,Completed

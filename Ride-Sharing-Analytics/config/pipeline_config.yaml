@@ -1,0 +1,162 @@
+# =============================================================================
+# RideSharing Analytics Platform — Master Pipeline Configuration
+# =============================================================================
+# Version       : 1.0.0
+# Environment   : development | staging | production
+# Maintainer    : Data Engineering Platform Team
+# Description   : Single source of truth for all pipeline parameters.
+#                 No hardcoded values exist anywhere in the codebase.
+# =============================================================================
+
+environment: development
+
+# ---------------------------------------------------------------------------
+# Spark Session Configuration
+# ---------------------------------------------------------------------------
+spark:
+  app_name: "RideSharing-Analytics-Platform"
+  master: "local[*]"
+  configs:
+    spark.sql.adaptive.enabled: "true"
+    spark.sql.adaptive.coalescePartitions.enabled: "true"
+    spark.sql.adaptive.skewJoin.enabled: "true"
+    spark.sql.shuffle.partitions: "8"
+    spark.default.parallelism: "8"
+    spark.sql.execution.arrow.pyspark.enabled: "true"
+    spark.sql.parquet.compression.codec: "snappy"
+    spark.sql.parquet.filterPushdown: "true"
+    spark.sql.parquet.mergeSchema: "false"
+    spark.serializer: "org.apache.spark.serializer.KryoSerializer"
+    spark.driver.memory: "4g"
+    spark.executor.memory: "4g"
+    spark.sql.broadcastTimeout: "300"
+    spark.sql.autoBroadcastJoinThreshold: "10485760"   # 10 MB
+
+# ---------------------------------------------------------------------------
+# Data Paths — Medallion Architecture
+# ---------------------------------------------------------------------------
+paths:
+  raw:
+    drivers:   "data/raw/drivers.csv"
+    trips:     "data/raw/trips.csv"
+    trip_logs: "data/raw/trip_logs.csv"
+
+  bronze:
+    drivers:   "data/bronze/drivers"
+    trips:     "data/bronze/trips"
+    trip_logs: "data/bronze/trip_logs"
+
+  silver:
+    drivers:   "data/silver/drivers"
+    trips:     "data/silver/trips"
+    trip_logs: "data/silver/trip_logs"
+    trips_enriched: "data/silver/trips_enriched"
+
+  gold:
+    driver_performance:     "data/gold/driver_performance"
+    revenue_analytics:      "data/gold/revenue_analytics"
+    city_analytics:         "data/gold/city_analytics"
+    demand_analytics:       "data/gold/demand_analytics"
+    cancellation_analytics: "data/gold/cancellation_analytics"
+    delay_analytics:        "data/gold/delay_analytics"
+    location_analytics:     "data/gold/location_analytics"
+    driver_ranking:         "data/gold/driver_ranking"
+    revenue_trend:          "data/gold/revenue_trend"
+    executive_kpis:         "data/gold/executive_kpis"
+    driver_segmentation:    "data/gold/driver_segmentation"
+    peak_hour_dataset:      "data/gold/peak_hour_dataset"
+
+  reports: "reports/"
+  logs:    "logs/"
+
+# ---------------------------------------------------------------------------
+# Schema Validation Rules
+# ---------------------------------------------------------------------------
+schemas:
+  drivers:
+    required_columns: ["driver_id", "name", "city", "rating"]
+    primary_key: "driver_id"
+    rating_min: 1.0
+    rating_max: 5.0
+    allowed_cities: ["Delhi", "Mumbai", "Pune", "Bangalore", "Hyderabad"]
+
+  trips:
+    required_columns: ["trip_id", "driver_id", "pickup_location", "drop_location",
+                       "distance_km", "fare_amount", "trip_status"]
+    primary_key: "trip_id"
+    foreign_key: "driver_id"
+    distance_min: 0.0
+    distance_max: 500.0
+    fare_min: 0.0
+    allowed_statuses: ["Completed", "Cancelled"]
+    allowed_locations: ["Airport", "Mall", "Railway Station", "IT Park", "City Center"]
+
+  trip_logs:
+    required_columns: ["log_id", "trip_id", "start_time", "end_time",
+                       "delay_minutes", "cancellation_flag"]
+    primary_key: "log_id"
+    foreign_key: "trip_id"
+    delay_min: 0
+    delay_max: 120
+    cancellation_flag_values: [0, 1]
+
+# ---------------------------------------------------------------------------
+# Data Quality Thresholds
+# ---------------------------------------------------------------------------
+quality:
+  max_null_pct: 0.05          # Flag if null % exceeds 5% in non-nullable cols
+  max_duplicate_pct: 0.02     # Flag if duplicate % exceeds 2%
+  min_row_count: 10           # Minimum expected rows per dataset
+  max_cancellation_rate: 0.80 # Business alert if cancellation > 80%
+
+# ---------------------------------------------------------------------------
+# Partitioning Strategy
+# ---------------------------------------------------------------------------
+partitioning:
+  silver_trips: ["trip_status"]
+  silver_trip_logs: []          # Small dataset — no partitioning overhead
+  gold_driver_performance: ["city"]
+  gold_revenue_trend: ["trip_date"]
+  gold_city_analytics: ["city"]
+
+# ---------------------------------------------------------------------------
+# Business KPI Definitions
+# ---------------------------------------------------------------------------
+kpis:
+  driver_efficiency_score:
+    description: "Weighted composite: 40% completion rate + 30% avg_rating + 20% revenue_per_km + 10% low_delay"
+    weights:
+      completion_rate: 0.40
+      avg_rating: 0.30
+      revenue_per_km: 0.20
+      low_delay: 0.10
+
+  revenue_per_km:
+    description: "Total fare earned divided by total km driven for completed trips"
+
+  driver_consistency_score:
+    description: "1 - (stddev_rating / avg_rating) — higher is more consistent"
+
+  peak_hour_windows:
+    morning_rush: [7, 10]    # 07:00 – 10:00
+    afternoon:    [12, 14]   # 12:00 – 14:00
+    evening_rush: [17, 20]   # 17:00 – 20:00
+    late_night:   [22, 2]    # 22:00 – 02:00
+
+# ---------------------------------------------------------------------------
+# Logging Configuration
+# ---------------------------------------------------------------------------
+logging:
+  level: "INFO"
+  format: "%(asctime)s | %(name)s | %(levelname)s | %(message)s"
+  datefmt: "%Y-%m-%d %H:%M:%S"
+  log_file: "logs/pipeline.log"
+
+# ---------------------------------------------------------------------------
+# Report Configuration
+# ---------------------------------------------------------------------------
+reports:
+  formats: ["markdown", "html"]
+  generate_charts: true
+  chart_dpi: 150
+  chart_style: "seaborn-v0_8-darkgrid"
